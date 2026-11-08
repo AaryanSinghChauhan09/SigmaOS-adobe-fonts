@@ -2,10 +2,9 @@
 name = "sigmaos-adobe-fonts"
 version = "0.1.0"
 edition = "2021"
-authors = ["SigmaOS Contributors"]
-description = "SigmaOS adobe-fonts component"
-license = "MIT OR Apache-2.0"
+license = "Apache-2.0"
+description = "SigmaOS Adobe fonts component"
 
 [lib]
-name = "sigmaos_adobe-fonts"
+name = "sigmaos_adobe_fonts"
 path = "src/lib.rs"
