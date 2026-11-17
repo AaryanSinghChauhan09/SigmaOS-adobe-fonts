@@ -3,12 +3,12 @@ name = "SigmaOS-adobe-fonts"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "adobe-fonts component"
+description = "This crate is currently an empty no_std library scaffold. The source contains no font files, font installation logic, or Adobe Fonts integration; the test module only checks basic arithmetic."
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
